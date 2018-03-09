@@ -2,15 +2,95 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Educación</title>
   </head>
   <body>
-    <h2>Julian Malagon Navarro</h2>
-    <h3>Educación</h3>
-
+    <h1>Curriculum Vitae</h1>
+    <h2>Julian Malagon Navaro</h2>
+    <h3>28 de Junio de 1992</h3>
+    <h3>Bogota D.C</h3>
     <ul>
       <li><a href="../index.html" id="Inicio">Inicio </a></li>
       <li><a href="experiencia.html" id="Experiencia">Experiencia</a> </li>
     </ul>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="5" cellspacing="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Titulo Obtenido</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2010</td>
+          <td>Colegio Comercial Granbogotano</td>
+          <td>Bogotá D.C</td>
+          <td>Bachiller Comercial</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Fundación de Egresados de la Universidad Distrital</td>
+          <td>Bogotá D.C</td>
+          <td>CISCO CCNA</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>Politécnico Grancolombiano</td>
+          <td>Bogotá D.C</td>
+          <td>Ingeniero en Telecomunicaciones</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Next University</td>
+          <td>Bogotá D.C</td>
+          <td>Desarrollador Web</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table><br>
+    <h3>Agregar Estudios</h3>
+    <form name="Formulario Agregar Estudios" autocomplete="on">
+      <fieldset>
+        <label for="Año">Año:</label>
+          <select id="Año">
+            <option disabled selected>--</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+          </select><br><br>
+        <label for="Institucion">Institución: </label>
+          <input type="text" id="Institucion" autofocus required><br><br>
+        <label for="Lugar">Lugar: </label>
+          <input type="textarea" id="Lugar" required><br><br>
+        <label for="Culmino">¿Culminó?</label>
+          <input type="radio" name="Culmino" required>Si
+          <input type="radio" name="Culmino" required>No <br><br>
+        <label for="Enviar"></label>
+          <input type="submit" name="Enviar" value="Enviar">
+      </fieldset>
   </body>
+  <footer>
+    <h3>Contacto</h3>
+    <ul>
+      <li>Email: <a href="mailto:jmalagon100@gmail.com">jmalagon100@gmail.com</a></li>
+      <li>Tel: 57-310-8054278</li>
+      <li><a href="https://www.linkedin.com/in/julian-malagon-navarro/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </footer>
 </html>
